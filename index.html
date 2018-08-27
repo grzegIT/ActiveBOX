@@ -14,43 +14,14 @@
     <!-- css's styles -->
     <link rel="stylesheet" type="text/css" href="css/fontello.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-    
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    
-				
-    
+    <link rel="stylesheet" type="text/css" href="css/main.css">  
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Cardo:400i&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel:300&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
-
-
-    <!-- js -->
-    <script type="text/javascript" src="js/main.js" async></script>
-    <script src="js/jquery.3.3.1.min.js"></script>
-    <script src="js/slick.js" async></script>
-    
-    <script type="text/javascript" async>
-        $(document).ready(function(){
-          $('.page-clients').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 3500,
-            arrows: false,
-            dots: true,
-            dotsClass: 'slick-dots',
-          });
-        });
-      </script>
-
-
-
-     <!-- Live Reload, przed instalacją na serwerze należy usunąć poniższy skrypt -->
-     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 </head>
 <body>
@@ -289,7 +260,7 @@
             </div>
             <div>
                 <div class="text-box">
-                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maiores culpa rerum quo commodi? Eos quibusdam quas tempore, neque mollitia provident, veniam officiis adipisci aspernatur sunt at porro quam unde.</h3>
+                    <h3>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maiores culpa rerum quo commodi? Eos quibusdam quas tempore, neque mollitia provident..."</h3>
                     <h4>Rod Cloney, UX Designer at XYZ</h4>
                 </div>
             </div>
@@ -328,6 +299,25 @@
         <p>Copyright &copy; 2015 ActiveBox. All Rights Reserved.<br>
         Made with <span style="color: #E84545; font-size: 18px;">&hearts;</span> by <a href="#">Kamal Chaneman</a></p>
     </section>
+
+    <!-- js -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/jquery.3.3.1.min.js"></script>
+    <script src="js/slick.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.page-clients').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3500,
+            arrows: false,
+            dots: true,
+            dotsClass: 'slick-dots',
+          });
+        });
+      </script>
 </body>
 </html>
 
