@@ -325,6 +325,9 @@ img {
         object-fit: cover;
         object-position: 70%;
     }
+    .slick-dots {   /* nawigacja slider'a */
+        bottom: 10%;
+    }
 
     /* sekcja 7. - footer */
     .page-footer .footer-header .footer {
